@@ -1,0 +1,83 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+body{
+    background-color: wheat;
+}
+
+.container{
+    background: linear-gradient(135deg,#871187,#3131ef);
+    width: 60%;
+    margin: auto;
+    min-height: 100vh;
+    padding: 30px;
+    box-sizing: border-box;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin: 30px;
+}
+
+input, textarea, button {
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    font: 100 1.1rem Georgia ;
+    border-radius: 5px;
+    outline: none;
+}
+
+button{
+    background-color: black;
+    color: white;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: bisque;
+}
+
+.task{
+    background-color: rgb(247, 247, 247);
+    font: 100 1.1rem Georgia ;
+    padding: 30px;
+    color: rgba(0, 0, 0, 0.658);
+    display: flex;
+    align-items: center;
+    margin: 2vmax;
+
+}
+
+.task > div {
+    width: 100%;
+}
+
+.task span{
+    color: rgba(0, 0, 0, 0.486);
+}
+
+.deleteBtn{
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 0, 0, 0.5);
+}
